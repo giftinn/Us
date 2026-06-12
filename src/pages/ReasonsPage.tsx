@@ -24,7 +24,7 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
     {
       id: 2,
       title: 'I Love You',
-      text: 'Cause your presence alone already calms my heart.',
+      text: 'Cause your presence already calms my heart.',
       isRevealed: false
     },
     {
