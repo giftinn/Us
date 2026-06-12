@@ -10,7 +10,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
   const [password, setPassword] = useState('');
   const [showError, setShowError] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const correctPassword = '16062026';
+  const correctPassword = '16062004';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -43,7 +43,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
     <div className="text-center space-y-6 sm:space-y-8 px-4">
       <div className="space-y-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold gradient-text leading-relaxed">You know what the password is???</h2>
-        <p className="text-base sm:text-lg md:text-xl text-pink-600 font-medium">Hint; Today!</p>
+        <p className="text-base sm:text-lg md:text-xl text-pink-600 font-medium">Hint; the date when your life began</p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
