@@ -10,11 +10,14 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `I just want you to know that you're a really special person. Being around you, talking to you, and getting to know you has been one of the nicest things for me. You have a way of making people feel comfortable, and that's something I truly appreciate about you.
+  const fullText = `Happy Birthday! 🤍
+Today is a special reminder of how wonderful you are and how much happiness you bring to the people around you. Thank you for being such a kind, genuine, and amazing person. Getting to know you has been one of the best things, and i truly hope you know how appreciated you are by those who care about you.
 
-I hope life treats you kindly and brings you many good things along the way. I hope you always find reasons to smile, keep doing the things you love, and never stop believing in yourself. You deserve happiness, peace, and all the little moments that make life beautiful.
+As you begin another chapter of your life, i wish you endless happiness, good health, and the courage to chase every dream you have. I hope you find success in the things you work hard for, peace in the moments when life feels overwhelming, and confidence in yourself even when things don't go as planned. May every challenge help you grow and every achievement remind you of how capable you are.
 
-No matter where life takes you, I hope you continue to be the amazing person you are today. Thank you for being you.`;
+Most of all, i wish that this year brings you beautiful memories, genuine people, and countless moments that make you smile. May you always be surrounded by love, support, and warmth wherever you go. Keep being the amazing person you are, and never forget that you deserve all the good things life has to offer. Enjoy your day and make every moment count.
+
+Happy birtday, my beautiful girlfriend`;
 
   useEffect(() => {
     let currentIndex = 0;
