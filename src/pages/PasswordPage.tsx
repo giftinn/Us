@@ -10,7 +10,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
   const [password, setPassword] = useState('');
   const [showError, setShowError] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const correctPassword = '010925';
+  const correctPassword = '16062026';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -43,7 +43,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
     <div className="text-center space-y-6 sm:space-y-8 px-4">
       <div className="space-y-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold gradient-text leading-relaxed">You know what the password is???</h2>
-        <p className="text-base sm:text-lg md:text-xl text-pink-600 font-medium">Hint; Tanggal jadian kita!</p>
+        <p className="text-base sm:text-lg md:text-xl text-pink-600 font-medium">Hint; Today!</p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -55,7 +55,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
             type="text"
             value={password}
             onChange={handleInputChange}
-            placeholder="DDMMYY"
+            placeholder="DDMMYYYY"
             maxLength={8}
             className="w-full px-4 sm:px-6 py-3 sm:py-4 text-center text-lg sm:text-xl font-semibold border-2 border-pink-300 rounded-xl sm:rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-4 focus:ring-pink-200 transition-all duration-300 bg-white/90 backdrop-blur-sm shadow-lg hover:shadow-xl"
             style={{ fontFamily: 'monospace', letterSpacing: '0.15em' }}
