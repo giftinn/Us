@@ -39,7 +39,7 @@ const WelcomePage: React.FC<WelcomePageProps> = ({ onNext }) => {
           transition={{ delay: 0.5 }}
         >
           <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-pink-700 font-medium">
-            Happy Mensiversary for Us!
+            Happy Birthday to my Dearest Girlfriend
           </p>
         </motion.div>
       </motion.div>
