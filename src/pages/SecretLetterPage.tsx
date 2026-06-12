@@ -10,13 +10,11 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Selamatt hari kasih sayanggg, pacarkuuu
-  
-tau gaaa??!! aku seneng bisa ngerayain valentine kali ini sama kamuuu. kayaaa apa ya, jadi makin kerasa lengkap aja gituu valentine kali inii karena ada kamu as my lovely boyfiee. makasihh yaa udah mauu stay sama akuu yang masih super childish ini huhuhuu, makasihh udah nemenin hari-hari aku juga sayangg. makasihh juga udah mau dengerin cerita-cerita random aku, terus masih mau ngadepin aku yang suka ngambekan, childish inii. makasih kamu udah mau terus milihh aku yaa sayangg, ituu berartii banget buat aku daripada hadiah-hadiah lain. 
+  const fullText = `I just want you to know that you're a really special person. Being around you, talking to you, and getting to know you has been one of the nicest things for me. You have a way of making people feel comfortable, and that's something I truly appreciate about you.
 
-kadangg, aku tuh mikirr kayaa ini aku abis ngelakuin apasihh kok dapat karmanya sebaik iniii. iyaa ketemu kamu dan bahkan sekarang tetap jadi pacar kamu tuh karma terbaik menurut aku. aku harap kamu tau sesayangg apa aku sama kamuu, makasihh yaa udah jadi kamuu yang saat inii, yang sabar, yang pengertian, yang bikin hari-hari aku jadi makin seruu. dan aku bener-bener excited buat terus stay longer sama kamu dan bikin banyak kenangan lagii. kamu benerann deserve bahagiaaa banyaaa-banyaa, aku harap kamu selalu bahagia, seneng, dijauhin dari apa yang namanyaa sedii-sediii. kalau ada yang bikin sedii lapor aja ke akuu, aku yang maju paling depan buat nyenengin kamu lagi.
+I hope life treats you kindly and brings you many good things along the way. I hope you always find reasons to smile, keep doing the things you love, and never stop believing in yourself. You deserve happiness, peace, and all the little moments that make life beautiful.
 
-With all my heart, your lovely girlfriend`;
+No matter where life takes you, I hope you continue to be the amazing person you are today. Thank you for being you.`;
 
   useEffect(() => {
     let currentIndex = 0;
