@@ -17,7 +17,7 @@ As you begin another chapter of your life, i wish you endless happiness, good he
 
 Most of all, i wish that this year brings you beautiful memories, genuine people, and countless moments that make you smile. May you always be surrounded by love, support, and warmth wherever you go. Keep being the amazing person you are, and never forget that you deserve all the good things life has to offer. Enjoy your day and make every moment count.
 
-Happy birtday, my beautiful girlfriend`;
+Happy birtday, my handsome girlfriend`;
 
   useEffect(() => {
     let currentIndex = 0;
